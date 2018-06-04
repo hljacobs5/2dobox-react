@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Idea from './Idea.js';
+import Card from './Card.js'
 
 import './App.css';
 
@@ -13,7 +13,7 @@ class App extends Component {
         <input type='text' name='title-input' placeholder='Idea Title' />
         <input type='text' name='body-input' placeholder='Idea Body' />
         <button>Submit</button>
-        <Idea ideaContents={idea.ideaContents} />
+        <Card ideaContents={Card} />
       </div>
     );
   }
