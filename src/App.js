@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Card from './Card.js'
 
 import './App.css';
@@ -13,7 +12,9 @@ class App extends Component {
         <input type='text' name='title-input' placeholder='Idea Title' />
         <input type='text' name='body-input' placeholder='Idea Body' />
         <button>Submit</button>
-        <Card ideaContents={Card} />
+        <div>
+          <Card ideaContents={Card} />
+        </div>
       </div>
     );
   }
